@@ -1,0 +1,540 @@
+platanus scaffold -o Gag.platanus.scaff -c Gag.platanus_contig.fa -b Gag.platanus_contigBubble.fa -IP1 Gag_200bp_R1.fq Gag_200bp_R2.fq -IP2 Gag_300bp_R1.fq Gag_300bp_R2.fq -IP3 Gag_1kb_R1.fq Gag_1kb_R2.fq -OP1 Gag.2K.R1.fastq Gag.2K.R2.fastq -OP2 Gag.4K.R1.fastq Gag.4K.R2.fastq -OP3 Gag.10K.R1.fastq Gag.10K.R2.fastq -t 16 
+
+K=32, making hash table...
+K=32, making hash table...
+CONTIG_AVERAGE_COVERAGE = 85.4924
+merging contig and bubbles...
+[LIBRARY 1]
+mapping reads...
+MIN_INS_LEN = 0
+TOTAL_PAIR = 171671955
+MAPPED_PAIR = 111059205 (0.646927)
+MAPPED_IN_DIFFERENT_CONTIGS = 17465624 (0.101738)
+MAPPED_IN_SAME_CONTIG = 93593581 (0.545189)
+AVERAGE_COVERAGE = 6.93655
+[LIBRARY 2]
+mapping reads...
+MIN_INS_LEN = 0
+TOTAL_PAIR = 514572176
+MAPPED_PAIR = 390868317 (0.759599)
+MAPPED_IN_DIFFERENT_CONTIGS = 53513794 (0.103997)
+MAPPED_IN_SAME_CONTIG = 337354523 (0.655602)
+AVERAGE_COVERAGE = 26.2037
+[LIBRARY 3]
+mapping reads...
+MIN_INS_LEN = 0
+TOTAL_PAIR = 234051321
+MAPPED_PAIR = 168356468 (0.719314)
+MAPPED_IN_DIFFERENT_CONTIGS = 55893855 (0.23881)
+MAPPED_IN_SAME_CONTIG = 112462613 (0.480504)
+AVERAGE_COVERAGE = 11.279
+estimating insert-size...
+PEAK = 186
+LOWER_BOUND = 47
+UPPER_BOUND = 326
+AVE_INS = 189
+SD_INS = 20
+[LIBRARY 1]
+AVE_INS = 189, SD_INS = 20
+saving overlaps... (LEN_CUTOFF=40)
+destructing mapper objects...
+[LIBRARY 1]
+AVE_INS = 189, SD_INS = 20
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=5 (CONTAINED_HETERO)
+TOLERENCE = 40
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=662 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=33
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=33
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=3320
+NUM_DELETE=3
+NUM_DELETE=0
+TOTAL_NUM_DELETE=3323
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=22622 (COVERAGE_THRESHOLD)
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=7 (CONTAINED_HETERO)
+TOLERENCE = 60
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=978
+NUM_DELETE=6
+NUM_DELETE=0
+TOTAL_NUM_DELETE=984
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=49 (COVERAGE_THRESHOLD)
+scaffolding...
+estimating insert-size...
+PEAK = 273
+LOWER_BOUND = 68
+UPPER_BOUND = 478
+AVE_INS = 266
+SD_INS = 32
+[LIBRARY 2]
+AVE_INS = 266, SD_INS = 32
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=1467 (CONTAINED_HETERO)
+TOLERENCE = 64
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=49616 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=1160
+NUM_CRUSH=2
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=1162
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=109878
+NUM_DELETE=1312
+NUM_DELETE=0
+TOTAL_NUM_DELETE=111190
+deleting edges from repeat contigs...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=49652 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=1167
+NUM_CRUSH=2
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=1169
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=110039
+NUM_DELETE=1315
+NUM_DELETE=0
+TOTAL_NUM_DELETE=111354
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=248 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=35
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=35
+NUM_DELETE=82982 (COVERAGE_THRESHOLD)
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=222 (CONTAINED_HETERO)
+TOLERENCE = 96
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=1 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=9
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=9
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=9390
+NUM_DELETE=135
+NUM_DELETE=0
+TOTAL_NUM_DELETE=9525
+deleting edges from repeat contigs...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=3 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=10
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=10
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=9396
+NUM_DELETE=134
+NUM_DELETE=0
+TOTAL_NUM_DELETE=9530
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=142 (COVERAGE_THRESHOLD)
+scaffolding...
+estimating insert-size...
+PEAK = 890
+LOWER_BOUND = 223
+UPPER_BOUND = 1558
+AVE_INS = 828
+SD_INS = 189
+[LIBRARY 3]
+AVE_INS = 828, SD_INS = 189
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=1543 (CONTAINED_HETERO)
+TOLERENCE = 378
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=40 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=27594
+NUM_DELETE=13
+NUM_DELETE=0
+TOTAL_NUM_DELETE=27607
+deleting edges from repeat contigs...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=40 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=27713
+NUM_DELETE=14
+NUM_DELETE=0
+TOTAL_NUM_DELETE=27727
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=4 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=150 (COVERAGE_THRESHOLD)
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=347 (CONTAINED_HETERO)
+TOLERENCE = 567
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=948
+NUM_DELETE=3
+NUM_DELETE=0
+TOTAL_NUM_DELETE=951
+deleting edges from repeat contigs...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=984
+NUM_DELETE=3
+NUM_DELETE=0
+TOTAL_NUM_DELETE=987
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=3 (COVERAGE_THRESHOLD)
+scaffolding...
+[LIBRARY 1]
+AVE_INS = 189, SD_INS = 20
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=0 (CONTAINED_HETERO)
+TOLERENCE = 40
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=576
+NUM_DELETE=1
+NUM_DELETE=0
+TOTAL_NUM_DELETE=577
+deleting edges from repeat contigs...
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=9 (COVERAGE_THRESHOLD)
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=0 (CONTAINED_HETERO)
+TOLERENCE = 60
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=609
+NUM_DELETE=4
+NUM_DELETE=0
+TOTAL_NUM_DELETE=613
+deleting edges from repeat contigs...
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=0 (COVERAGE_THRESHOLD)
+scaffolding...
+Library1 PHYSICAL_COVERAGE=6
+SUM_SHORT_LIBRARY_PHYSICAL_COVERAGE=6
+Library2 PHYSICAL_COVERAGE=35
+Library3 PHYSICAL_COVERAGE=47
+SUM_LONG_LIBRARY_PHYSICAL_COVERAGE=82
+checking erroneous scaffold using long libraries...
+spliting low coverage links...
+NUM_SPLIT_EDGES = 1384
+[LIBRARY 2]
+AVE_INS = 266, SD_INS = 32
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=18 (CONTAINED_HETERO)
+TOLERENCE = 64
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=2 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=9
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=9
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=35798
+NUM_DELETE=560
+NUM_DELETE=0
+TOTAL_NUM_DELETE=36358
+deleting edges from repeat contigs...
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=1 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=3
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=3
+NUM_DELETE=234 (COVERAGE_THRESHOLD)
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=10 (CONTAINED_HETERO)
+TOLERENCE = 96
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=2729
+NUM_DELETE=80
+NUM_DELETE=0
+TOTAL_NUM_DELETE=2809
+deleting edges from repeat contigs...
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=4 (COVERAGE_THRESHOLD)
+scaffolding...
+Library1 PHYSICAL_COVERAGE=6
+Library2 PHYSICAL_COVERAGE=35
+SUM_SHORT_LIBRARY_PHYSICAL_COVERAGE=41
+Library3 PHYSICAL_COVERAGE=47
+SUM_LONG_LIBRARY_PHYSICAL_COVERAGE=47
+checking erroneous scaffold using long libraries...
+spliting low coverage links...
+NUM_SPLIT_EDGES = 10933
+[LIBRARY 3]
+AVE_INS = 828, SD_INS = 189
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=146 (CONTAINED_HETERO)
+TOLERENCE = 378
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=695
+NUM_DELETE=3
+NUM_DELETE=0
+TOTAL_NUM_DELETE=698
+deleting edges from repeat contigs...
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=1
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=1
+NUM_DELETE=44 (COVERAGE_THRESHOLD)
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_DELETE=54 (CONTAINED_HETERO)
+TOLERENCE = 567
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+removing erroneous edges...
+EXPECTED_RATE_THRESHOLD=0.5
+NUM_DELETE=204
+NUM_DELETE=1
+NUM_DELETE=0
+TOTAL_NUM_DELETE=205
+deleting edges from repeat contigs...
+scaffolding...
+linking scaffolds (MIN_LINK = 3)
+sorting links...
+estimating contig distances...
+constructing scaffold graph
+NUM_CRUSH=0 (COVERAGE_THRESHOLD)
+removing bubbles... (MAX_BUBBLE_IDENTITY = 0.1)
+NUM_CRUSH=0
+TOTAL_NUM_CRUSH=0
+NUM_DELETE=1 (COVERAGE_THRESHOLD)
+scaffolding...
+Library1 PHYSICAL_COVERAGE=6
+Library2 PHYSICAL_COVERAGE=35
+Library3 PHYSICAL_COVERAGE=47
+SUM_SHORT_LIBRARY_PHYSICAL_COVERAGE=88
+SUM_LONG_LIBRARY_PHYSICAL_COVERAGE=0
+writing scaffold files...
+scaffold completed!
+
+#### PROCESS INFORMATION ####
+VmPeak:         241.720 GByte
+VmHWM:           49.982 GByte

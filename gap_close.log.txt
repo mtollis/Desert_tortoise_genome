@@ -1,0 +1,78 @@
+platanus gap_close -o Gag.platanus.scaf.gapclose -c Gag.platanus.scaff_scaffold.fa -f Gag_200bp_single_flash.fq Gag_200bp_single.fq Gag_300bp_single.fq Gag_1kb_single.fq -IP1 Gag_200bp_R1.fq Gag_200bp_R2.fq -IP2 Gag_300bp_R1.fq Gag_300bp_R2.fq -IP3 Gag_1kb_R1.fq Gag_1kb_R2.fq -OP1 Gag.2K.R1.fastq Gag.2K.R2.fastq -OP2 Gag.4K.R1.fastq Gag.4K.R2.fastq -OP3 Gag.10K.R1.fastq Gag.10K.R2.fastq -t 16 
+
+K=32, making hash table...
+[SINGLE_LIBRARY]
+mapping reads that cover small gaps...
+[PAIR_LIBRARY 1]
+mapping reads...
+TOTAL_PAIR = 171671955
+MAPPED_IN_SAME_CONTIG = 107215889 (0.624539)
+estimating insert-size...
+PEAK = 186
+LOWER_BOUND = 47
+UPPER_BOUND = 326
+AVE_INS = 188
+SD_INS = 19
+mapping reads that cover small gaps...
+[PAIR_LIBRARY 2]
+mapping reads...
+TOTAL_PAIR = 514572176
+MAPPED_IN_SAME_CONTIG = 380034362 (0.738544)
+estimating insert-size...
+PEAK = 273
+LOWER_BOUND = 68
+UPPER_BOUND = 478
+AVE_INS = 265
+SD_INS = 32
+mapping reads that cover small gaps...
+[PAIR_LIBRARY 3]
+mapping reads...
+TOTAL_PAIR = 234051321
+MAPPED_IN_SAME_CONTIG = 154354748 (0.659491)
+estimating insert-size...
+PEAK = 890
+LOWER_BOUND = 223
+UPPER_BOUND = 1558
+AVE_INS = 832
+SD_INS = 189
+mapping reads that cover small gaps...
+making hash table of gaps...
+making consensus sequences to close small gaps...
+NUM_GAP=603184
+NUM_CLOSED_GAP=260815
+[PAIR_LIBRARY 1]
+saving reads covering gaps...
+loading reads covering gaps...
+assembling localized reads...
+NUM_GAPS = 342369
+NUM_NOT_CLOSED_GAPS_BECAUSE_OF_TOO_MANY_READS = 816
+NUM_CLOSED_GAPS_IN_DE_BRUIJN = 19042
+NUM_CLOSED_GAPS_IN_OVERLAP_LAYOUT_CONSENSUS = 56611
+[PAIR_LIBRARY 2]
+saving reads covering gaps...
+loading reads covering gaps...
+assembling localized reads...
+NUM_GAPS = 266716
+NUM_NOT_CLOSED_GAPS_BECAUSE_OF_TOO_MANY_READS = 836
+NUM_CLOSED_GAPS_IN_DE_BRUIJN = 36345
+NUM_CLOSED_GAPS_IN_OVERLAP_LAYOUT_CONSENSUS = 32241
+[PAIR_LIBRARY 3]
+saving reads covering gaps...
+loading reads covering gaps...
+assembling localized reads...
+NUM_GAPS = 198130
+NUM_NOT_CLOSED_GAPS_BECAUSE_OF_TOO_MANY_READS = 607
+NUM_CLOSED_GAPS_IN_DE_BRUIJN = 7065
+NUM_CLOSED_GAPS_IN_OVERLAP_LAYOUT_CONSENSUS = 16271
+[ALL LIBRARY]
+assembling localized reads...
+NUM_GAPS = 174794
+NUM_NOT_CLOSED_GAPS_BECAUSE_OF_TOO_MANY_READS = 1071
+NUM_CLOSED_GAPS_IN_DE_BRUIJN = 4344
+NUM_CLOSED_GAPS_IN_OVERLAP_LAYOUT_CONSENSUS = 5991
+TOTAL_NUM_CLOSED_GAPS = 438725
+gap_close completed!!
+
+#### PROCESS INFORMATION ####
+VmPeak:         127.311 GByte
+VmHWM:           30.891 GByte
